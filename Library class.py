@@ -16,9 +16,9 @@ class Library:
 
 
 my_library = Library()
-my_library.add_book('Book 1')
-my_library.add_book('Book 2')
-my_library.add_book('Book 3')
+my_library.add_book('Harry potter')
+my_library.add_book('13 reason why?')
+my_library.add_book('fault in my star')
 
 print("Number of books:", my_library.get_no_of_books())
 my_library.print_all_books()
